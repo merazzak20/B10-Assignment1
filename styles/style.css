@@ -16,11 +16,11 @@
     color: rgb(13, 19, 33);
 }
 section{
-    margin: 25px 0;
+    margin: 25px 0 0 0;
 }
 .container{
     width: 945px;
-    padding: 80px 95px;
+    padding: 50px 95px;
     margin: 0 auto;
 }
 .section_info{
@@ -212,11 +212,20 @@ section{
     font-weight: 700;
     color: rgb(13, 19, 33);
 }
+.card2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
 .card3{
     margin-right: 0;
+    background-color: rgba(255, 223, 0, 0.05);
 }
 
 /* NTarget Styles */
+.nt_cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .nt_card{
     display: flex;
     justify-content: flex-start;
