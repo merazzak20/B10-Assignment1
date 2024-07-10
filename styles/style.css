@@ -25,6 +25,7 @@ section{
 }
 .section_info{
     text-align: center;
+    margin-bottom: 80px;
 }
 .section_title{
     font-size: 32px;
@@ -174,4 +175,123 @@ section{
     overflow: hidden;
     border-radius: 10px;
     margin: 0 auto;
+}
+
+/* Target Styles */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 33%;
+    padding: 40px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.card_img{
+    padding: 0 8px;
+}
+.card_img img{
+    width: 40px;
+}
+.card_info{
+    margin-top: 20px;
+}
+.card_title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.card_description{
+    margin-bottom: 20px;
+}
+.learn_btn{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+.card3{
+    margin-right: 0;
+}
+
+/* NTarget Styles */
+.nt_card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 5px;
+    padding: 40px;
+}
+.nt_img{
+    padding: 10px 0;
+}
+.nt_img img{
+    width: 90px;
+}
+.nt_info p{
+    margin-bottom: 20px;
+}
+
+
+/* support Styles */
+.support_container{
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 64px 48px;
+    border-radius: 15px;
+    background-color: rgba(13, 19, 33, 0.6);
+    background-blend-mode: overlay;
+}
+.support_title{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+.support_description{
+    color: #fff;
+    opacity: 0.7;
+}
+.fields{
+    text-align: center;
+}
+input[type="text"]{
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    border: none;
+    outline: none;
+}
+input[type="submit"]{
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+/* Footer Styles */
+#footer .footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+}
+#footer p{
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer .social_icons{
+    display: flex;
+}
+#footer img{
+    width: 36px;
+    margin-right: 20px;
 }
